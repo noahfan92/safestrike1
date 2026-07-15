@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Safe Strike LLC | Lightning Protection Systems</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Montserrat,sans-serif;
+color:#222;
+line-height:1.6;
+background:#f4f6f9;
+}
+
+header{
+background:linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+url('https://images.unsplash.com/photo-1500674425229-f692875b0ab7?auto=format&fit=crop&w=1600&q=80');
+background-size:cover;
+background-position:center;
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero h1{
+font-size:4rem;
+font-weight:800;
+letter-spacing:2px;
+}
+
+.hero h2{
+margin-top:20px;
+font-size:1.6rem;
+font-weight:400;
+}
+
+.hero p{
+margin-top:30px;
+font-size:1.2rem;
+max-width:700px;
+margin-left:auto;
+margin-right:auto;
+}
+
+.button{
+display:inline-block;
+margin-top:40px;
+padding:15px 35px;
+background:#ffb400;
+color:#111;
+text-decoration:none;
+font-weight:700;
+border-radius:50px;
+transition:.3s;
+}
+
+.button:hover{
+background:white;
+}
+
+nav{
+position:fixed;
+top:0;
+left:0;
+right:0;
+background:#111;
+padding:18px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+z-index:1000;
+}
+
+nav h2{
+color:white;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:600;
+}
+
+section{
+padding:90px 10%;
+}
+
+.section-title{
+text-align:center;
+font-size:2.5rem;
+margin-bottom:20px;
+color:#0d2d57;
+}
+
+.section-text{
+text-align:center;
+max-width:900px;
+margin:auto;
+margin-bottom:60px;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:30px;
+}
+
+.card{
+background:white;
+padding:35px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,.1);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h3{
+margin-bottom:15px;
+color:#0d2d57;
+}
+
+.why{
+background:#0d2d57;
+color:white;
+}
+
+.why-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+margin-top:50px;
+}
+
+.why-box{
+background:rgba(255,255,255,.08);
+padding:30px;
+border-radius:10px;
+}
+
+.cta{
+background:#ffb400;
+text-align:center;
+padding:80px 20px;
+}
+
+.cta h2{
+font-size:2.4rem;
+margin-bottom:20px;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:40px;
+}
+
+.contact-box{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:40px;
+margin-top:40px;
+}
+
+input,textarea{
+width:100%;
+padding:15px;
+margin-bottom:20px;
+border-radius:6px;
+border:1px solid #ccc;
+font-family:inherit;
+}
+
+button{
+padding:15px 30px;
+background:#0d2d57;
+color:white;
+border:none;
+border-radius:40px;
+font-size:16px;
+cursor:pointer;
+}
+
+button:hover{
+background:#163f73;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:2.6rem;
+}
+
+.hero h2{
+font-size:1.2rem;
+}
+
+nav{
+flex-direction:column;
+gap:10px;
+}
+
+nav ul{
+flex-wrap:wrap;
+justify-content:center;
+}
+}
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<h2>SAFE STRIKE LLC</h2>
+
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+
+<header>
+
+<div class="hero">
+
+<h1>SAFE STRIKE LLC</h1>
+
+<h2><strong>Control the Strike. Protect the Structure.</strong></h2>
+
+<p>
+Professional lightning protection systems designed to safeguard homes,
+commercial buildings, industrial facilities, agricultural structures,
+and critical infrastructure from the destructive power of lightning.
+</p>
+
+<a class="button" href="#contact">Request a Free Estimate</a>
+
+</div>
+
+</header>
+
+<section id="about">
+
+<h2 class="section-title">Protecting What Matters Most</h2>
+
+<p class="section-text">
+Safe Strike LLC specializes in professionally engineered lightning
+protection systems that help reduce the risk of structural damage,
+electrical surges, fire hazards, and costly downtime. Our mission is
+simple—deliver dependable protection with expert installation,
+quality materials, and exceptional customer service.
+</p>
+
+</section>
+
+<section id="services">
+
+<h2 class="section-title">Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Lightning Protection Systems</h3>
+<p>
+Complete lightning protection installations for residential,
+commercial, industrial, and agricultural buildings.
+</p>
+</div>
+
+<div class="card">
+<h3>Grounding Systems</h3>
+<p>
+Engineered grounding and bonding systems designed for maximum
+electrical safety and code compliance.
+</p>
+</div>
+
+<div class="card">
+<h3>Surge Protection</h3>
+<p>
+Protect sensitive electronics, equipment, and electrical systems
+from damaging surge events.
+</p>
+</div>
+
+<div class="card">
+<h3>Inspection & Maintenance</h3>
+<p>
+Routine inspections, testing, repairs, and maintenance to keep your
+lightning protection system performing properly.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="why">
+
+<h2 class="section-title" style="color:white;">Why Choose Safe Strike LLC?</h2>
+
+<div class="why-grid">
+
+<div class="why-box">
+<h3>Experienced Professionals</h3>
+<p>Reliable installations completed with precision and attention to detail.</p>
+</div>
+
+<div class="why-box">
+<h3>Quality Materials</h3>
+<p>Only premium components designed to withstand years of service.</p>
+</div>
+
+<div class="why-box">
+<h3>Code Compliant</h3>
+<p>Systems installed following recognized industry standards and best practices.</p>
+</div>
+
+<div class="why-box">
+<h3>Customer Focused</h3>
+<p>Honest communication, dependable service, and long-term support.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="cta">
+
+<h2>Control the Strike. Protect the Structure.</h2>
+
+<p>
+Get peace of mind with a professionally installed lightning protection system.
+</p>
+
+<a class="button" href="#contact">Schedule Your Consultation</a>
+
+</section>
+
+<section id="contact">
+
+<h2 class="section-title">Contact Us</h2>
+
+<div class="contact-box">
+
+<div>
+
+<h3>Safe Strike LLC</h3>
+
+<p><strong>Phone:</strong> (555) 555-5555</p>
+
+<p><strong>Email:</strong> info@safestrikellc.com</p>
+
+<p><strong>Service Area:</strong> Residential • Commercial • Industrial</p>
+
+</div>
+
+<div>
+
+<form>
+
+<input type="text" placeholder="Your Name">
+
+<input type="email" placeholder="Email Address">
+
+<input type="tel" placeholder="Phone Number">
+
+<textarea rows="6" placeholder="Tell us about your project"></textarea>
+
+<button type="submit">Send Request</button>
+
+</form>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h2>SAFE STRIKE LLC</h2>
+
+<p>Control the Strike. Protect the Structure.</p>
+
+<p>&copy; 2026 Safe Strike LLC. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>
